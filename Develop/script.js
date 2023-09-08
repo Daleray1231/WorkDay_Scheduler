@@ -19,5 +19,21 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
-  // TODO: Add code to display the current date in the header of the page.
 });
+
+// TODO: Add code to display the current date in the header of the page.
+
+// Get the current date
+var currentDate = new Date();
+
+// Create an array of day names
+var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+// Get the current day of the week (0 = Sunday, 1 = Monday, etc.)
+var dayOfWeek = currentDate.getDay();
+
+// Get the current date in a human-readable format
+var date = currentDate.toLocaleDateString();
+
+// Display the current day and date in the "currentDateTime" div
+document.getElementById("currentDay").textContent = "Today is " + daysOfWeek[dayOfWeek] + ", " + date;

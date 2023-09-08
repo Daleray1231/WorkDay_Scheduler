@@ -1,6 +1,18 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  margin: 20px;
+  border-style: solid;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0 0 5px 0;
 }
 
 textarea {
