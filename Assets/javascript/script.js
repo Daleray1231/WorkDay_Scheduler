@@ -9,10 +9,15 @@ $(function () {
       // Get the hour from the time-block's id (e.g., "hour-9" => 9).
       var timeBlockHour = parseInt($(this).attr("id").split("-")[1]);
 
+      // Add 12 to the parsed hour for time-blocks from 1PM to 5PM.
+      if (timeBlockHour >= 1 && timeBlockHour <= 5) {
+        timeBlockHour += 12;
+      }
+
       // Remove existing classes to reset the styling.
       $(this).removeClass("past present future");
 
-      // Compare the time block's hour to the current hour and apply appropriate class.
+      // Compare the time block's hour to the current hour and apply the appropriate class.
       if (timeBlockHour < currentHour) {
         $(this).addClass("past");
       } else if (timeBlockHour === currentHour) {
@@ -35,7 +40,7 @@ $(function () {
     });
   }
 
-  // Update time-block classes initially.
+  // Update time-block classes initially when the page loads.
   updateTimeBlockClasses();
 
   // Load saved user input initially.

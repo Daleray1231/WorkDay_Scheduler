@@ -1,28 +1,48 @@
-# Work Day Scheduler Readme
+ Work Day Scheduler
 
-## Overview
-The Work Day Scheduler is a simple web application that allows users to schedule their work day by entering tasks or events for each hour. It provides a visual representation of past, present, and future time blocks to help users manage their tasks effectively.
+## Description
+
+The Work Day Scheduler is a simple calendar app that helps you schedule your workday effectively. It provides a user-friendly interface to organize your tasks and appointments for the day.
 
 ## Features
-1. **Time Block Styling**
-   - The application uses Bootstrap and CSS classes to style time blocks based on the current time.
-   - Past time blocks are displayed with a gray background.
-   - The present time block is displayed with a red background.
-   - Future time blocks are displayed with a green background.
 
-2. **Current Date Display**
-   - The current date is dynamically displayed in the header using Day.js.
+- **Hourly Time Blocks**: The scheduler is divided into hourly time blocks from 9 AM to 5 PM, making it easy to plan your day.
 
-3. **User Input and Local Storage**
-   - Users can enter their tasks or events for each time block in the provided text areas.
-   - Clicking the save button for a time block saves the user's input in local storage with the time block's id as the key.
-   - When the page is refreshed, the saved user input is loaded from local storage and displayed in the corresponding time blocks.
+- **Real-time Styling**: Each time block is color-coded to indicate whether it's in the past, present, or future based on the current time.
+
+- **Task Input**: You can input your tasks and appointments for each hour by typing directly into the text areas provided.
+
+- **Save Functionality**: There's a save button for each time block that allows you to save your task for that specific hour. Your tasks will persist even if you refresh the page.
+
+- **Current Date Display**: The current date is displayed in the header, helping you stay organized and aware of the date while scheduling.
+
+## How to Use
+
+1. Open the Work Day Scheduler webpage in your browser.
+2. Observe the color coding of the time blocks to identify past, present, and future hours.
+3. Click on the text areas for the respective hours and enter your tasks or appointments.
+4. Click the "Save" button for each time block to save your input.
 
 ## Technologies Used
+
 - HTML
 - CSS (Bootstrap)
-- JavaScript (jQuery and Day.js)
-- Local Storage
+- JavaScript
+- jQuery
+- Day.js (for working with dates and times)
 
-## Installation
-Clone this repository to your local machine:
+## Getting Started
+
+Deployed Webpage:
+
+https://daleray1231.github.io/workDayScheduler 
+
+GitHub Repo: 
+
+https://github.com/Daleray1231/workDayScheduler 
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+![Alt text](image.png)
