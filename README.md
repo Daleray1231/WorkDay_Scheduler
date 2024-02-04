@@ -1,24 +1,27 @@
 # Work Day Scheduler
 
+Welcome to the Work Day Scheduler! This simple calendar app is designed to assist you in efficiently planning your workday. Organize your tasks and appointments with ease through our user-friendly interface.
+
+![alt text](<Assets/images/Opera Snapshot_2024-02-04_134050_127.0.0.1.png>)
+
 ## Description
 
-The Work Day Scheduler is a simple calendar app that helps you schedule your workday effectively. It provides a user-friendly interface to organize your tasks and appointments for the day.
+The Work Day Scheduler provides the following features:
 
-## Features
-
-- **Hourly Time Blocks**: The scheduler is divided into hourly time blocks from 9 AM to 5 PM, making it easy to plan your day.
+- **Hourly Time Blocks**: The scheduler is segmented into hourly time blocks from 9 AM to 5 PM, facilitating easy day planning.
 
 - **Real-time Styling**: Each time block is color-coded to indicate whether it's in the past, present, or future based on the current time.
 
-- **Task Input**: You can input your tasks and appointments for each hour by typing directly into the text areas provided.
+- **Task Input**: Input your tasks and appointments for each hour by typing directly into the provided text areas.
 
-- **Save Functionality**: There's a save button for each time block that allows you to save your task for that specific hour. Your tasks will persist even if you refresh the page.
+- **Save Functionality**: Save your tasks for each specific hour using the corresponding "Save" button. Your tasks persist even after page refresh.
 
-- **Current Date Display**: The current date is displayed in the header, helping you stay organized and aware of the date while scheduling.
+- **Current Date Display**: The current date is prominently displayed in the header, helping you stay organized and aware of the date while scheduling.
 
 ## How to Use
 
-1. Open the Work Day Scheduler webpage in your browser.
+1. Open the [Work Day Scheduler](https://daleray1231.github.io/WorkDay_Scheduler/)
+ webpage in your preferred browser.
 2. Observe the color coding of the time blocks to identify past, present, and future hours.
 3. Click on the text areas for the respective hours and enter your tasks or appointments.
 4. Click the "Save" button for each time block to save your input.
@@ -33,16 +36,12 @@ The Work Day Scheduler is a simple calendar app that helps you schedule your wor
 
 ## Getting Started
 
-Deployed Webpage:
+[Work Day Scheduler](https://daleray1231.github.io/WorkDay_Scheduler/)
 
-https://daleray1231.github.io/workDayScheduler 
-
-GitHub Repo: 
-
-https://github.com/Daleray1231/workDayScheduler 
+[GitHub Repository](https://github.com/Daleray1231/WorkDay_Scheduler)
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-![Alt text](image.png)
+![Work Day Scheduler Screenshot](image.png)
